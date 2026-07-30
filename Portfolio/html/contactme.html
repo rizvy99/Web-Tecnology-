@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1>Contact Me</h1>
+        <form method = "post">
+            <fieldset>
+                <legend>Registration Form</legend>
+                 
+                <table cellspacing="10">
+                    <tr>
+                        <td style="text-align:right;"><label for="fname"><b>First Name:</b></label></td>
+                        <td><input type="text" id="fname" required></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align:right;"><label for="lname"><b>Last Name:</b></label></td>
+                        <td><input type="text" id="lname" required></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align:right;"><label for="mail"><b>Email:</b></label></td>
+                        <td><input type="email" id="mail" required></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align:right;"><label for="gender"><b>Gender:</b></label></td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                        </td>
+                    </tr> 
+                    
+                    <tr>
+                        <td style="text-align:right;"> <label for="service"><b>Services:</b></label></td>
+                        <td><select id="service" name="service">
+                            <option value = " ">--Select services--</option>
+                            <option value = "web">Web Devolopment</option>
+                            <option value = "ai/ml">AI/ML</option>
+                            <option value = "backend">Backend</option>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align:right;"><label for ="ROC"><b>Reason of contact:</b></td>
+                        <td><select id = "ROC" name = "ROC">
+                            <option value =" ">--reason of contact--</option>
+                            <option value ="job">Job</option>
+                            <option value ="project">Project</option>
+                            <option value ="thesis">Thesis</option>
+                            <option value ="intern">Internship</option>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:right;"><label for = "slot"><b>Book Slot:</b></label></td>
+                        <td><input type = "date" id = "slot"></td>
+                    </tr>
+                
+                    <tr>
+                        <td style="text-align:right;"><input type="submit" name="Submit"></td>
+                        <td><input type="reset" name="Reset"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+form{
+    width:420px;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#333;
+}
+
+.field{
+    margin-bottom:18px;
+}
+
+.field label{
+    font-weight:bold;
+    color:#444;
+}
+
+.field input,
+.field select{
+    width:100%;
+    padding:12px;
+    margin-top:6px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+    outline:none;
+    transition:.3s;
+}
+
+.field input:focus,
+.field select:focus{
+    border-color:#4facfe;
+    box-shadow:0 0 6px rgba(79,172,254,.4);
+}
+
+.check{
+    margin-top:15px;
+    color:#444;
+    font-size:15px;
+}
+
+.check input{
+    margin-right:8px;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.btn input{
+    width:48%;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.btn input[type="submit"]{
+    background:#4facfe;
+    color:white;
+}
+
+.btn input[type="submit"]:hover{
+    background:#0b84ff;
+}
+
+.btn input[type="reset"]{
+    background:#ddd;
+}
+
+.btn input[type="reset"]:hover{
+    background:#bbb;
+}
+
+.error{
+    color:red;
+    font-size:13px;
+    margin-top:4px;
+}
+
+.success{
+    color:green;
+    text-align:center;
+    margin-top:15px;
+    font-weight:bold;
+}

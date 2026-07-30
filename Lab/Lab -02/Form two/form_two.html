@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="post">
+        <h1>Registration</h1>
+        <p>Please complete all fields below.</p>
+
+        <div class="field">
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" placeholder="Jane Deo">
+        </div>
+
+        <div class="field">
+            <label for="code">Postal Code</label><br>
+            <select id="code" name="code">
+                <option value="">10001</option>
+                <option value="10001">10001</option>
+                <option value="10002">10002</option>
+                <option value="10003">10003</option>
+                <option value="10004">10004</option>
+                <option value="10005">10005</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label for="date">Date of Birth</label><br>
+            <input type="date" id="date">
+        </div>
+
+        <div class="field">
+            <label for="mail">Email Address</label><br>
+            <input type="email" id="mail" placeholder="jane@example.com">
+        </div>
+
+        <div class="field">
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass" placeholder="********">
+        </div>
+
+        <div class="field">
+            <label for="country">Country</label><br>
+            <select id="country" name="country">
+                <option value="">Select a country...</option>
+                <option value="india">India</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="argentina">Argentina</option>
+                <option value="china">China</option>
+                <option value="japan">Japan</option>
+                <option value="pakistan">Pakistan</option>
+            </select>
+        </div><br>
+
+        <div class="btn">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
