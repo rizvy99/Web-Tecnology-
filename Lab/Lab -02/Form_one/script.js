@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 
 form.addEventListener("submit", function(e){
 
-    e.preventDefault();
+    e.preventDefault(); 
 
     const name = document.getElementById("fname").value.trim();
     const phone = document.getElementById("nmbr").value;
